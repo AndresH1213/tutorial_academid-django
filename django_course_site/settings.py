@@ -124,4 +124,6 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MEDIA_ROOT = BASE_DIR / 'uploads'
+# In development django manage the routment of the files to be served through the MEDIA_URL
+# in deployment in a little different
 MEDIA_URL = '/files/'
